@@ -60,7 +60,7 @@ input{
 #navbar{
     width: 80%;
     display: flex;
-    height: 40px;
+    height: 35px;
     margin-left: 12%;
     gap: 10px;
     padding-bottom: 5px;
@@ -78,8 +78,8 @@ input{
 }
 
 #bt1{
-    margin-left: 30px;
-    height: 40px;
+    margin-left: 20px;
+    height: 35px;
     padding: 10px;
     background-color: darkblue;
     border: none;
@@ -95,7 +95,7 @@ input{
 
 #bt2{
     padding: 10px;
-    height: 40px;
+    height: 35px;
     background-color: gold;
     border: none;
     border-radius: 5px;
@@ -108,7 +108,7 @@ input{
 }
 #bt3{
     padding: 10px;
-    height: 40px;
+    height: 35px;
     background-color:none;
     border: solid blue 1px;
     border-radius: 5px;
@@ -279,3 +279,257 @@ input{
     display: block;
   }
 
+  #bottom{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    height: auto;
+    font-size: 14px;
+    margin-left: 12%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #bottom>p{
+    color: red;
+    margin-top: 0px;
+  }
+ #bottom>a{
+  text-decoration: none;
+  color: gray;
+ }
+ #bottom>a>img{
+  width: 110px;
+  height: auto;
+ }
+
+ #boxe1{
+  display: flex;
+  width: 80%;
+  gap: 20px;
+  height: 550px;
+  margin-left: 12%;
+ }
+ #suB1{
+  width: 350px;
+  height: 550px;
+ }
+ #boxe2{
+  width: 100%;
+  color: white;
+  height: 400px;
+  background-color: rgb(21, 21, 136);
+  margin-bottom: 20px;
+ }
+ #boxe2>img{
+  width: 100%;
+  height: 50%;
+ }
+
+ .issue{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  color: black;
+  width: 100%;
+  height: 120px;
+  background-color:whitesmoke;
+  margin-bottom: 20px;
+ }
+ .image>img{
+  width: 130px;
+  height: 120px;
+ }
+ .issue2{
+  width: 260px;
+  padding-left: 5px;
+ }
+
+
+ #suB2{
+  width: 350px;
+  height: 800px;
+ }
+
+.issue>.issue2>h4{
+  color: blue;
+}
+ #bo2{
+  width: 350px;
+  height: 800px;
+ }
+
+ #bo2>#sub3{
+  width: 100%;
+  height: 280px;
+ }
+ #sub3>img{
+  width: 280px;
+  height: 260px;
+ }
+ .Box2>img{
+  width: 280px;
+  height: 120px;
+  margin-bottom: 15px;
+ }
+ #imG{
+  display: flex;
+  margin-left: 12%;
+  width: 80%;
+  height: 300px;
+  gap: 20px;
+ }
+ #imG>img:nth-child(1){
+  width: 72%;
+  height: 100%;
+ }
+ #imG>img:nth-child(2){
+  width: 26%;
+  height: 100%;
+ }
+ #second{
+  display: flex;
+  width: 80%;
+  margin-left:12%;
+  height: auto;
+  gap: 20px;
+ }
+ #second>div{
+  width: 25%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+ }
+ #second>div>img{
+  width: 100%;
+  height: 200px;
+ }
+ #second>div>p{
+  padding: 5px;
+ }
+ #second>div>h6{
+  color: grey;
+ }
+ #center{
+  padding: 10px;
+  width: 650px;
+  height: 150px;
+ }
+
+ #third{
+  display: flex;
+  width: 80%;
+  margin-left:12%;
+  height: auto;
+  gap: 20px;
+ }
+ #third>div{
+  width: 25%;
+  height: auto;
+ }
+ #third>div>img{
+  width: 100%;
+  height: 200px;
+ }
+ #third>div>p{
+  color: grey;
+ }
+
+ #line{
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin-left:12%;
+  color: rgb(11, 5, 41);
+ }
+#line>div:nth-child(2){
+  height: 40px;
+  width: 75%;
+  border-bottom: 1px solid black;
+}
+#line>div:nth-child(3){
+  display: flex;
+  margin-left: 10px;
+  gap: 5px;
+  padding-top: 5px;
+}
+#line>div>img{
+  width: 40px;
+  height: 40px;
+}
+
+#line2{
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin-left:12%;
+  color: rgb(45, 32, 107);
+ }
+#line2>div:nth-child(2){
+  height: 40px;
+  margin-left: 10px;
+  width: 83%;
+  border-bottom: 1px solid black;
+}
+#line2>div>h5{
+  color: grey;
+}
+
+#fifth{
+  width: 80%;
+  margin-left: 12%;
+  height: auto;
+  display: flex;
+}
+#fibox{
+  display: flex;
+  gap: 20px;
+}
+#fibox>div{
+  width: 200px;
+  padding:0px 5px 0px 7px;
+}
+#fibox>div:nth-child(2){
+  background-color: rgb(37, 37, 100);
+  color: white;
+}
+#fibox>div:nth-child(3){
+  background-color: rgb(37, 37, 104);
+  color: white;
+}
+
+#child{
+  width: 300px;
+  height: 200px;
+  
+}
+#child>div:nth-child(1){
+  background-color: rgb(243, 239, 239);
+}
+#child>div>div>h4{
+  color: rgb(40, 40, 109);
+}
+
+#cartoon{
+  width: 100%;
+  height: 210px;
+}
+#car{
+  background-color: grey;
+}
+#car>h5{
+  padding-left: 5px;
+  color: white;
+  padding-top: 10px;
+}
+#fiBox2{
+  display: flex;
+  padding: 20px;
+  gap :20px
+}
+#childbox{
+  width: 340px;
+}
+#right{
+  width:300px;
+}
+#rightp{
+  border-style: dotted 1px solid black;
+}
