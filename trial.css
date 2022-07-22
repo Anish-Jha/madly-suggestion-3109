@@ -1,0 +1,63 @@
+body{
+    background-color:#12485f;
+}
+#trial{
+    display: flex;
+}
+div{
+    font-family: "TundraWeb-MediumW03-Regular";
+    color: white;
+    padding: 10px 40px;
+    width:600px;
+}
+div>h1{
+    font-size: 34px;
+}
+div>h2>a{
+    font-style: italic;
+    color: white;
+}
+#irl>h2{
+    font-family: "Helvetica,Arial,sans-serif;";
+    font-weight: bold;
+}
+
+#idg>img{
+    padding-top: 40px;
+    width: 450px;
+}
+li{
+    line-height: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 14px;
+    margin-left: -35px;
+}
+#btn{
+    margin-top: 20px;
+}
+#btn>a{
+    padding: 20px 40px 20px 40px;
+    color: #12485f;
+    background-color: gold;
+    font-family: "Helvetica,Arial,sans-serif;";
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#btn>h2{
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub{
+    margin-top: -30px;
+}
+#sub>h2{
+    font-family: "Helvetica,Arial,sans-serif;";
+    margin-bottom: -10px;
+}
+p{
+    margin-top: -10px;
+    font-size: 14px;
+}
