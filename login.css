@@ -1,0 +1,64 @@
+body{
+    background-color: transparent;
+}
+form{
+    padding: 20px 40px 20px 40px;
+    margin: 60px;
+    width: 350px;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#ik{
+    display: flex;
+    height: auto;
+    border: 1px solid rgb(192, 190, 190);
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 0px 30px 15px 30px;
+}
+#ik>img{
+    width: 30px;
+    height: 30px;
+    padding: 15px 10px 0px 15px;
+}
+
+#idc{
+    display: flex;
+    width: 300px;
+    gap: 5px;
+}
+#idc>div{
+    border-bottom: 1px solid grey;
+    width: 43%;
+    height: 35px;
+}
+#idc>p{
+    font-size: 23px;
+    color: grey;
+}
+.in{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#submit{
+       width: 325px;
+       padding: 15px;
+       font-size: 17px;
+       border: none;
+       background-color: #12485f;
+       color: white;
+       border-radius: 5px;
+       margin-top: 30px;
+}
+#yes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: #12485f;
+}#a{
+text-decoration: none;
+ font-family:"Inter", sans-serif;
+ font-size: 17px;
+ color: #12485f;
+}

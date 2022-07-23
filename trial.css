@@ -22,7 +22,7 @@ div>h2>a{
     font-weight: bold;
 }
 
-#idg>img{
+#idg>a>img{
     padding-top: 40px;
     width: 450px;
 }
